@@ -1,0 +1,29 @@
+# CI/CD Summary
+
+## CI (Continuous Integration)
+- **What**: Merge code changes to a shared repo frequently.
+- **Automate**:
+  - Build code.
+  - Run tests (unit, integration).
+- **Goal**: Catch bugs early, avoid merge conflicts.
+- **Tools**: Jenkins, GitHub Actions, GitLab CI.
+
+## CD (Continuous Delivery/Deployment)
+- **Continuous Delivery**:
+  - Auto-prepare code for release.
+  - **Manual** deployment to production.
+- **Continuous Deployment**:
+  - Auto-deploy to production after CI.
+  - **No human intervention**.
+- **Tools**: AWS CodeDeploy, Kubernetes, Argo CD.
+
+## Workflow
+1. Code → Repo → CI (Build + Test).
+2. If CI passes → CD (Deploy to staging/prod).
+3. If CD (Deployment) → App goes live.
+
+## Benefits
+- 🚀 Faster releases.
+- 🛠️ Fewer bugs.
+- 🔄 Consistent deployments.
+- 📉 Reduced risk.
